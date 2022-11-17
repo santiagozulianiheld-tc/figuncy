@@ -1,7 +1,10 @@
 # Figuncy
 
-Te avisa si hay figuritas con una notificación del FS.
+Te avisa si hay figuritas en el sitio ZonaKids con una notificación del File System.
+
 Puedes agregar la configuracion SMTP de tu mail para notificarte via email.
+
+[PROXIMAMENTE] Notificaciones por Telegram.
 
 Ademas puedes forzar que se abra una pestaña de tu browser por defecto con la pagina para realizar la compra.
 
@@ -17,5 +20,6 @@ El tiempo esperado para volver a chequear por stock es de 30 segundos por defaul
 * `--port <port>`          (SMTP port para el envio de emails)
 * `--username <username>`  (SMTP username para el envio de emails)
 * `--password <password>`  (SMTP password para el envio de emails)
+* `--sendto <sendto>`      (Emails destinatarios separados por coma)
 * `--force`                (Si se desea forzar que se abra una pestaña del browser cuando se encuentre stock)
 * `--seconds <seconds>`    (Segundos esperados hasta volver a revisar el stock nuevamente)
